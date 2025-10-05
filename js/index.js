@@ -1,8 +1,8 @@
 const dishes = [
-  { name: "Phở bò tái chín", price: "50.000đ", img: "/public/food.png" },
-  { name: "Cơm gà xối mỡ", price: "45.000đ", img: "/public/food.png" },
-  { name: "Bún thịt nướng", price: "40.000đ", img: "/public/food.png" },
-  { name: "Hủ tiếu Nam Vang", price: "55.000đ", img: "/public/food.png" }
+  { name: "Bún nước bò tôm", price: "35.000đ", img: "/public/food-bun.png" },
+  { name: "Bún nước đặc biệt", price: "50.000đ", img: "/public/food-bun.png" },
+  { name: "Mì trộn bò tôm", price: "35.000đ", img: "/public/food-mi.png" },
+  { name: "Mì trộn đặc biệt", price: "50.000đ", img: "/public/food-mi.png" }
 ];
 
 const menuList = document.getElementById("menu-list");

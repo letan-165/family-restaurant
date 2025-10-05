@@ -26,17 +26,25 @@
 }
 
 .about-content {
-    padding-bottom: 20px;
-  height: 280px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   align-items: center;
+  justify-content: space-between; 
+  height: 280px;
+  gap: 20px; 
+}
+
+.about-content img {
+  width: 50%; 
+  height: 100%; 
+  object-fit: cover; 
 }
 
 .about-content p {
-  flex: 1 1 300px;
+  width: 50%;
+  margin: 0; 
+  font-weight: 700;
 }
+
 
 /* --- KHÔNG GIAN QUÁN --- */
 .space {

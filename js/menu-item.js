@@ -1,8 +1,8 @@
 const menuItems = [
-  { name: "Cơm sườn", price: 50000, img: "/public/food.png" },
-  { name: "Bún thịt nướng", price: 45000, img: "/public/food.png" },
-  { name: "Phở bò", price: 60000, img: "/public/food.png" },
-  { name: "Hủ tiếu Nam Vang", price: 55000, img: "/public/food.png" }
+  { name: "Bún nước bò tôm", price: 35000, img: "/public/food-bun.png" },
+  { name: "Bún nước đặc biệt", price: 50000, img: "/public/food-bun.png" },
+  { name: "Mì trộn bò tôm", price: 35000, img: "/public/food-mi.png" },
+  { name: "Mì trộn đặc biệt", price: 50000, img: "/public/food-mi.png" }
 ];
 
 const menuList = document.getElementById("menu-list");
@@ -20,9 +20,16 @@ menuList.innerHTML = menuItems.map(item => `
   </div>
 `).join("");
 
+const menuItems2 = [
+  { name: "Thêm trứng", price: 5000, img: "/public/food-trung.png" },
+  { name: "Thêm bò viên", price: 5000, img: "/public/food-bovien.png" },
+  { name: "Thêm chả", price: 5000, img: "/public/food-cha.png" },
+  { name: "Thêm mì", price: 10000, img: "/public/food-mithem.png" }
+];
+
 const menuList2 = document.getElementById("menu-list-2");
 
-menuList2.innerHTML = menuItems.map(item => `
+menuList2.innerHTML = menuItems2.map(item => `
   <div class="dish">
     <div class="dish-img" style="background-image: url('${item.img}')"></div>
     <p class="dish-name">${item.name}</p>
