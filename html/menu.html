@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thực đơn</title>
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="/css/layout.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="/public/logo.png" alt="Logo Quán">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">GIỚI THIỆU</a></li>
+        <li><a href="#" class="active">THỰC ĐƠN</a></li>
+        <li><a href="/html/contact.html">LIÊN HỆ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Thực đơn -->
+  <div class="bg2">
+      <main class="menu-page">
+      <div class="header-menu">
+        <h1>Thực đơn</h1>
+        <div class="cart-box">
+          <button class="btn-cart">🛒 ĐẶT MÓN</button>
+          <p>Tổng: <span>0đ</span></p>
+      </div>
+    </div>
+
+      <!-- Món ăn -->
+      <section class="menu-section">
+        <h2>Món ăn chính</h2>
+        <div class="menu-grid" id="menu-list"></div>
+      </section>
+
+      <!-- Món thêm -->
+      <section class="menu-section">
+        <h2>Món thêm</h2>
+        <div class="menu-grid" id="menu-list-2"></div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Tên Quán - All rights reserved.</p>
+  </footer>
+
+  <script src="/js/menu.js"></script>
+</body>
+
+
+    <script src="/js/menu-item.js"></script>
+    <script src="/js/menu-effect.js"></script>
+</html>

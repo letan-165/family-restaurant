@@ -1,0 +1,130 @@
+/* Menu layout */
+.menu-page {
+  background-image: url("/public/bg-texture.png");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 60px;
+}
+
+/* Giỏ hàng */
+.header-menu {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.cart-box {
+  width: 150px;
+  background-color: #f5e2a1;
+  border: 2px solid #5b3920;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.btn-cart {
+  background-color: #ffd700;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart-box span {
+  color: #5b3920;
+  font-weight: bold;
+}
+
+/* Section */
+.menu-section{
+  margin-bottom: 20px;
+}
+
+.menu-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Grid món ăn */
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Card món ăn */
+.dish {
+  width: 150px;
+  background-color: white;
+  border: 2px solid #a67b5b;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.dish.active {
+  border: 3px solid #ffd700;
+  background-color: #fff9d6;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
+.dish-img {
+  height: 100px;
+  background-image: url("/public/food.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.dish-name {
+  font-weight: bold;
+}
+
+.dish-price {
+  color: #3b2c18;
+  font-size: 14px;
+}
+
+.dish-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.dish-actions button {
+  border: none;
+  background: #5b3920;
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dish-actions span {
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #5b3920;
+  color: white;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-grid {
+    justify-content: center;
+  }
+  .dish {
+    width: 45%;
+  }
+}
