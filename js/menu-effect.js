@@ -7,8 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dishes.forEach(dish => {
       const qty = parseInt(dish.querySelector(".dish-actions span").textContent);
       const priceText = dish.querySelector(".dish-price").textContent.replace(/[^\d]/g, "");
-      const price = parseInt(priceText);
-      total += qty * price;
+      total += qty * parseInt(priceText);
     });
     totalDisplay.textContent = total.toLocaleString("vi-VN") + "đ";
   }
