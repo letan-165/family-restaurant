@@ -34,3 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+const orderButton = document.querySelector('.cart-box button');
+    const orderModal = new bootstrap.Modal(document.getElementById('orderModal'));
+
+    orderButton.addEventListener('click', () => {
+      orderModal.show();
+    });

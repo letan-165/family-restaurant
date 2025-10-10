@@ -1,5 +1,5 @@
 .dish {
-  border: 2px solid #a67b5b !important; /* nâu nhạt kiểu cafe */
+  border: 2px solid #a67b5b !important;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -10,6 +10,6 @@
 }
 
 .dish.active {
-  border-color: #ffd700 !important; /* vàng khi chọn */
-  background-color: #fff9d6;
+  border-color: #4CAF50 !important;
+  background-color: #DFF5E1;
 }
