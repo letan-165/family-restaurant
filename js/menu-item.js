@@ -1,8 +1,8 @@
 const menuItems = [
-  { name: "Bún nước bò tôm", price: 35000, img: "/public/food-bun.png" },
-  { name: "Bún nước đặc biệt", price: 50000, img: "/public/food-bun.png" },
-  { name: "Mì trộn bò tôm", price: 35000, img: "/public/food-mi.png" },
-  { name: "Mì trộn đặc biệt", price: 50000, img: "/public/food-mi.png" }
+  { name: "Bún nước Bò Tôm", price: 35000, img: "/public/food-bun.png" },
+  { name: "Bún nước Đặc Biệt", price: 50000, img: "/public/food-bun.png" },
+  { name: "Mì trộn Bò Tôm", price: 35000, img: "/public/food-mi.png" },
+  { name: "Mì trộn Đặc Biệt", price: 50000, img: "/public/food-mi.png" }
 ];
 
 const menuList = document.getElementById("menu-list");
